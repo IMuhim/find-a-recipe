@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: black;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer {
+    border-top: 5px solid black;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a, p {
+    font-size: 17px;
+    color: black;
+}
